@@ -24,9 +24,14 @@ a{
     text-decoration: none;
 }
 /* section 1 */
-.section-1{
+.section-1 {
+    position: -webkit-sticky; /* For Safari */
+    position: sticky;
+    top: 0; /* Set the top edge of the element to stick at 0px from the top */
     padding-top: 20vh;
     text-align: center;
+    background-color: white; /* Optional: to ensure the content below doesn't overlap */
+    z-index: 10; /* Keep the section above other content */
 }
 
 .section-1 p{
