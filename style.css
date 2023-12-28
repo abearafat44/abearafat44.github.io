@@ -68,7 +68,7 @@ a{
     width: 100px;
 }
 
-/* media queres */
+/* media queries */
 @media(max-width:780px){
     .grid-2{
         grid-template-columns: 1fr;
