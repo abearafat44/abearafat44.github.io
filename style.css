@@ -25,14 +25,13 @@ a{
 }
 /* section 1 */
 .section-1 {
-    position: fixed; /* Fixed position relative to the viewport */
-    top: 0; /* Align to the top of the viewport */
-    left: 0; /* Align to the left of the viewport */
-    width: 50%; /* Adjust the width as needed */
-    height: 100%; /* Take full height of the viewport */
-    background-color: white; /* Background color to prevent overlap */
+    position: -webkit-sticky; /* For Safari */
+    position: sticky;
+    top: 0; /* Set the top edge of the element to stick at 0px from the top */
+    padding-top: 20vh;
+    text-align: center;
+    background-color: white; /* Optional: to ensure the content below doesn't overlap */
     z-index: 10; /* Keep the section above other content */
-    overflow-y: auto; /* Add scroll if content is longer than the viewport */
 }
 
 .section-1 p{
